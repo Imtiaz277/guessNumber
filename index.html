@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://kit.fontawesome.com/eb8b3cd471.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div class="top-section">
+        <button id="againBtn" class="btn btn--hover">Again!</button>
+        <p>(Between 1 and 20)</p>
+    </div>
+
+    <div class="middle-section">
+        <h1 id="title" class="title">Guess My Number!</h1>
+        <div class="icon-box">
+            <p id="correctNumber"><i class="fa-solid fa-question"></i></p>
+        </div>
+    </div>
+
+    <div class="bottom-section">
+        <div class="left-side">
+            <input type="number" name="number">
+            <button id="checkBtn" class="btn btn--hover">Check!</button>
+        </div>
+        <div class="right-side">
+            <h2 id="hint">Start guessing...</h2>
+            <p>💯 Score: <span id="score">20</span></p>
+            <p>🏅 Highscore: <span id="highscore">0</span></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
